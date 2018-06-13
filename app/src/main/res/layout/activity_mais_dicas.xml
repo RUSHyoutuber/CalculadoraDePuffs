@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaisDicasActivity">
+
+    <ScrollView
+        android:id="@+id/maincontent"
+        android:background="@color/branco"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@color/branco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texto1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:text="Nesta sessão você pode ver algumas dicas uteis que poderão lhe ajudar!"
+                android:textColor="@color/preto" />
+
+            <TextView
+                android:id="@+id/texto2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="15dp"
+                android:text="\nComo converter centimetros em metros:\nPara converter centimetros em metros basta dividirmos os centimentros por 100.\nExemplo: 150cm = 1,50m\n\nComo converter segundos em minutos:\nPara convertermos segundos em minutos basta dividirmos os segundos por 60.\nExemplo: 30s = 0,5min\n\nComo converter dolares em reais:\nPara converter doleares em reais basta dividirmos a quantidade de dolares pelo preço do dolar (3,8 média do dolar atual)\nExemplo: 10U$ = 2,65R$\n\nComo converter KiloWatts em Watts:\nPara convertermos Kw em W basta multiplicarmos a quantia de Kw em 1000.\nExemplo: 1,5KW = 1500W"
+                android:textColor="@color/preto" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

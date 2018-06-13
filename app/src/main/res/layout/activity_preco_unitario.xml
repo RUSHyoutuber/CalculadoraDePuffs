@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrecoUnitarioActivity">
+
+    <ScrollView
+        android:id="@+id/maincontent"
+        android:background="@color/branco"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@color/branco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texto1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="15dp"
+                android:text="Muitas vezes os itens não são vendidos separadamente ou avulsos então somos obrigados a compra-los em sacos, caixas ou containers. Para calcularmos o preço unitario de um item é usado uma formula simples que divide o preço total pela quantidade\n\nExemplo: compramos um saco com 50 pregos por 10R$, sendo assim a conta fica 10 divido por 50 que nos da o resultado de 0,20 centavos por prego do saco."
+                android:textColor="@color/preto" />
+
+            <TextView
+                android:id="@+id/texto2"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Quantidade de itens do saco/caixa/lote" />
+
+            <EditText
+                android:id="@+id/quantiaPrecoUnitario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto3"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Valor do saco/caixa/lote" />
+
+            <EditText
+                android:id="@+id/valorPrecoUnitario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:textSize="15dp"
+                android:text="CALCULAR PREÇO UNITARIO"
+                android:onClick="verPrecoUnitario"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

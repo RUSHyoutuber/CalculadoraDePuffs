@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrecoMetroActivity">
+
+    <ScrollView
+        android:id="@+id/maincontent"
+        android:background="@color/branco"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@color/branco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texto1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="15dp"
+                android:text="Na maioria das vezes que compramos tecidos ou outros itens que envolvam medições nunca pedimos quantos custa cada metro². Quase sempre que compramos tecidos ou coisas do genero não usamos tudo, ou dividimos os mesmos em pedaços para fazermos varias peças. Para termos um calculo preciso então nós precisamos saber o valor de cada metro² de tecido para sabe quanto sera o custo de produção.\n\nPara calcularmos o valor de um metro² primeiramente iremos utilizar a formular da área, onde multiplicamos a largura pelo comprimento, logo após isso basta dividirmos o valor da área pelo valor total pago e pronto!"
+                android:textColor="@color/preto" />
+
+            <TextView
+                android:id="@+id/texto2"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Largura da peça (metros)" />
+
+            <EditText
+                android:id="@+id/larguraMetroQuadrado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto3"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Comprimento da peça (metros)" />
+
+            <EditText
+                android:id="@+id/comprimentoMetroQuadrado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto4"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Valor total pago pela peça" />
+
+            <EditText
+                android:id="@+id/valorTotalMetroQuadrado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:textSize="15dp"
+                android:text="CALCULAR PREÇO DO METRO²"
+                android:onClick="verPrecoMetroQuadrado"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

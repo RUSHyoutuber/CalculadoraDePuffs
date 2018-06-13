@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculoActivity">
+
+
+    <ScrollView
+        android:id="@+id/maincontent"
+        android:background="@color/branco"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@color/branco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texto1"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/preto"
+                android:text="Parafuso Francês (quantidade)" />
+
+            <EditText
+                android:id="@+id/ParafusoFrancesQuantia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto2"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/preto"
+                android:text="Parafuso Francês (preço unitario)" />
+
+            <EditText
+                android:id="@+id/ParafusoFrancesValor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/texto3"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Parafuso Cabeça-Chata (quantidade)" />
+
+            <EditText
+                android:id="@+id/ParafusoCabecaChataQuantia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto4"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/preto"
+                android:text="Parafuso Cabeca-Chata (preço unitario)" />
+
+            <EditText
+                android:id="@+id/ParafusoCabecaChataValor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/texto5"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Parafuso Sextavado (quantidade)" />
+
+            <EditText
+                android:id="@+id/ParafusoSextavadoQuantia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto6"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/preto"
+                android:text="Parafuso Sextavado (preço unitario)" />
+
+            <EditText
+                android:id="@+id/ParafusoSextavadoValor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/texto7"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Pneu (quantidade)" />
+
+            <EditText
+                android:id="@+id/PneuQuantia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto8"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/preto"
+                android:text="Pneu (preço unitario)" />
+
+            <EditText
+                android:id="@+id/PneuValor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/texto9"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Pézinhos (quantidade)" />
+
+            <EditText
+                android:id="@+id/PesQuantia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto10"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/preto"
+                android:text="Pézinhos (preço unitario)" />
+
+            <EditText
+                android:id="@+id/PesValor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/texto11"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Arruelas (quantidade)" />
+
+            <EditText
+                android:id="@+id/RuelasQuantia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto12"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/preto"
+                android:text="Arruelas (preço unitario)" />
+
+            <EditText
+                android:id="@+id/RuelasValor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/texto13"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Porcas (quantidade)" />
+
+            <EditText
+                android:id="@+id/PorcasQuantia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto14"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/preto"
+                android:text="Porcas (preço unitario)" />
+
+            <EditText
+                android:id="@+id/PorcasValor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/texto15"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Chapa MDF largura (metros)" />
+
+            <EditText
+                android:id="@+id/ChapaLargura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto16"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/preto"
+                android:text="Chapa MDF comprimento (metros)" />
+
+            <EditText
+                android:id="@+id/ChapaComprimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto17"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/preto"
+                android:text="Chapa MDF (preço ao metro²)" />
+
+            <EditText
+                android:id="@+id/ChapaValor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/texto18"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Tecido forro largura (metros)" />
+
+            <EditText
+                android:id="@+id/TecidoForroLargura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto19"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/preto"
+                android:text="Tecido forro comprimento (metros)" />
+
+            <EditText
+                android:id="@+id/TecidoForroComprimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto20"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/preto"
+                android:text="Tecido forro (preço ao metro²)" />
+
+            <EditText
+                android:id="@+id/TecidoForroValor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/texto21"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Espuma largura (metros)" />
+
+            <EditText
+                android:id="@+id/EspumaLargura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto22"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/preto"
+                android:text="Espuma comprimento (metros)" />
+
+            <EditText
+                android:id="@+id/EspumaComprimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto23"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/preto"
+                android:text="Espuma (preço ao metro²)" />
+
+            <EditText
+                android:id="@+id/EspumaValor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/texto24"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Furadeira tempo de uso (minutos)" />
+
+            <EditText
+                android:id="@+id/FuradeiraTempo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto25"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/preto"
+                android:text="Furadeira potencia (em Watts)" />
+
+            <EditText
+                android:id="@+id/FuradeiraPotencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/texto26"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Parafusadeira tempo de uso (minutos)" />
+
+            <EditText
+                android:id="@+id/ParafusadeiraTempo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto27"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/preto"
+                android:text="Parafusadeira potencia (em Watts)" />
+
+            <EditText
+                android:id="@+id/ParafusadeiraPotencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/texto28"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Serra tempo de uso (minutos)" />
+
+            <EditText
+                android:id="@+id/SerraTempo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/texto29"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/preto"
+                android:text="Serra potencia (em Watts)" />
+
+            <EditText
+                android:id="@+id/SerraPotencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/texto55"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/preto"
+                android:text="Outras despesas" />
+
+            <EditText
+                android:id="@+id/outros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/preto"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/branco"
+                android:textColorHighlight="@color/branco"
+                android:textColorHint="@color/branco"
+                android:shadowColor="@color/branco"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:textSize="20dp"
+                android:text="CALCULAR VALOR FINAL"
+                android:onClick="verResultado"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
